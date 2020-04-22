@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./assignment1.component.css']
 })
 export class Assignment1Component {
-
+  public inputValue=""
+  onSearchChange(searchValue: string): void {  
+    this.inputValue=searchValue;
+  }
 }
